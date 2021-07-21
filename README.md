@@ -1,2 +1,2 @@
-# jbyrne6.github.io
+# Learn About Jimmy
 Jimmy's Personal Site

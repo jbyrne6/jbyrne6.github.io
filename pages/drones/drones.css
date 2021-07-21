@@ -1,3 +1,12 @@
+body {
+  padding-top: 56px;
+}
+/* @media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+} */
+
 .gallery-row {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +47,24 @@
     .gallery-column img {
       filter: grayscale(0) brightness(1);
     }
+  }
+  
+  .title-wrapper {
+    /* background-color: #98DDCA;
+    padding-bottom: 5px; */
+  }
+
+  .photography-wrapper {
+    /* background-color: #D5ECC2; */
+  }
+
+  .videos-wrapper {
+    /* background-color: #FFD3B4; */
+  }
+
+  .photogrammetry-wrapper {
+    /* background-color: #FFAAA7;
+    padding-bottom: 10px; */
   }
   
   

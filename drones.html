@@ -44,46 +44,118 @@
           <div class="gallery-row">
             <div class="gallery-column">
               <!-- https://www.cssscript.com/fullscreen-lightbox-fslightbox/ -->
-              <a data-fslightbox="gallery" data-caption="cows_jpg" data-type="image" href="https://drscdn.500px.org/photo/1034808401/m%3D900/v2?sig=c64f9becd4fcd6f3ef8f8308d3ae2c6cca12495be24fdae237c482e575f0a837">
-                <img id="disney_overhead" src='https://drscdn.500px.org/photo/1034808401/m%3D900/v2?sig=c64f9becd4fcd6f3ef8f8308d3ae2c6cca12495be24fdae237c482e575f0a837' alt='disney_overhead by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="cows_jpg" data-type="image" href="https://drscdn.500px.org/photo/1034808403/m%3D900/v2?sig=0c9f9bd6db71a5a91cb1d2dd08b233d9f4051e5b7e987307971571a8c36ba9fc">
-                <img id="solar-building" src='https://drscdn.500px.org/photo/1034808403/m%3D900/v2?sig=0c9f9bd6db71a5a91cb1d2dd08b233d9f4051e5b7e987307971571a8c36ba9fc' alt='solar-building by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="cows_jpg" data-type="image" href="https://drscdn.500px.org/photo/1034808416/m%3D900/v2?sig=419942702ebfdcb8b0fcb84700a8ce52630a23e747b90c6cfef3f78453ec5a10">
-                <img id="construction" src='https://drscdn.500px.org/photo/1034808416/m%3D900/v2?sig=419942702ebfdcb8b0fcb84700a8ce52630a23e747b90c6cfef3f78453ec5a10' alt='construction by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="cows_jpg" data-type="image" href="https://drscdn.500px.org/photo/1034808445/m%3D900/v2?sig=1d36ebc17b5caa60310e704e7e466bae8d4ac1c94c8d2e103e10d9da168b29a3">
-                <img id="trail_2" src='https://drscdn.500px.org/photo/1034808445/m%3D900/v2?sig=1d36ebc17b5caa60310e704e7e466bae8d4ac1c94c8d2e103e10d9da168b29a3' alt='trail_2 by Jimmy Byrne on 500px.com' />
-              </a>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="disney_overhead" data-type="image" href="https://drscdn.500px.org/photo/1034808401/m%3D900/v2?sig=c64f9becd4fcd6f3ef8f8308d3ae2c6cca12495be24fdae237c482e575f0a837">
+                  <img id="disney_overhead" src='https://drscdn.500px.org/photo/1034808401/m%3D900/v2?sig=c64f9becd4fcd6f3ef8f8308d3ae2c6cca12495be24fdae237c482e575f0a837' alt='disney_overhead by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('disney_overhead')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Disney Concert Hall Overhead</p>
+                  <p class="image-thumbnail-desc">Location: Downtown Los Angeles, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="solar-building" data-type="image" href="https://drscdn.500px.org/photo/1034808403/m%3D900/v2?sig=0c9f9bd6db71a5a91cb1d2dd08b233d9f4051e5b7e987307971571a8c36ba9fc">
+                  <img id="solar-building" src='https://drscdn.500px.org/photo/1034808403/m%3D900/v2?sig=0c9f9bd6db71a5a91cb1d2dd08b233d9f4051e5b7e987307971571a8c36ba9fc' alt='solar-building by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('solar-building')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Solar Building</p>
+                  <p class="image-thumbnail-desc">Location: Redondo Beach, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="construction" data-type="image" href="https://drscdn.500px.org/photo/1034808416/m%3D900/v2?sig=419942702ebfdcb8b0fcb84700a8ce52630a23e747b90c6cfef3f78453ec5a10">
+                  <img id="construction" src='https://drscdn.500px.org/photo/1034808416/m%3D900/v2?sig=419942702ebfdcb8b0fcb84700a8ce52630a23e747b90c6cfef3f78453ec5a10' alt='construction by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('construction')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Construction</p>
+                  <p class="image-thumbnail-desc">Location: Downtown Los Angeles, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="trail_2" data-type="image" href="https://drscdn.500px.org/photo/1034808445/m%3D900/v2?sig=1d36ebc17b5caa60310e704e7e466bae8d4ac1c94c8d2e103e10d9da168b29a3">
+                  <img id="trail_2" src='https://drscdn.500px.org/photo/1034808445/m%3D900/v2?sig=1d36ebc17b5caa60310e704e7e466bae8d4ac1c94c8d2e103e10d9da168b29a3' alt='trail_2 by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('trail_2')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Trail 2</p>
+                  <p class="image-thumbnail-desc">Location: Pfeiffer Big Sur, CA</p>
+                </div>
+              </div>
             </div>
             <div class="gallery-column">
-              <a data-fslightbox="gallery" data-caption="cows_jpg" data-type="image" href="https://drscdn.500px.org/photo/1034808402/m%3D900/v2?sig=bd06a3ce4c8b5eaf4f30c395c822245135907f8a2e266e6e0613b52420c915d6">
-                <img id="cows_jpg" src='https://drscdn.500px.org/photo/1034808402/m%3D900/v2?sig=bd06a3ce4c8b5eaf4f30c395c822245135907f8a2e266e6e0613b52420c915d6' alt='cows_jpg by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="light_down_road_downtown" data-type="image" href="https://drscdn.500px.org/photo/1034808404/m%3D900/v2?sig=5b0592c6c4afad408f77a7fe1ee1cb76ae36f6b3241de6b86a36c470e8a0f031">
-                <img id="light_down_road_downtown" src='https://drscdn.500px.org/photo/1034808404/m%3D900/v2?sig=5b0592c6c4afad408f77a7fe1ee1cb76ae36f6b3241de6b86a36c470e8a0f031' alt='light_down_road_downtown by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="cow_valley" data-type="image" href="https://drscdn.500px.org/photo/1034808417/m%3D900/v2?sig=f785a3eb557a5091ca9583f5ee7983aae3ea4fff7405a05c5ea8faa83813df74">
-                <img id="cow_valley" src='https://drscdn.500px.org/photo/1034808417/m%3D900/v2?sig=f785a3eb557a5091ca9583f5ee7983aae3ea4fff7405a05c5ea8faa83813df74' alt='cow_valley by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="square_rocks" data-type="image" href="https://drscdn.500px.org/photo/1034808446/m%3D900/v2?sig=8a38d4fb55483d0b5b96a365404c86658daf1ab9f74bed7959d88243ec397382">
-                <img id="square_rocks" src='https://drscdn.500px.org/photo/1034808446/m%3D900/v2?sig=8a38d4fb55483d0b5b96a365404c86658daf1ab9f74bed7959d88243ec397382' alt='square_rocks by Jimmy Byrne on 500px.com' />
-              </a>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="cows_jpg" data-type="image" href="https://drscdn.500px.org/photo/1034808402/m%3D900/v2?sig=bd06a3ce4c8b5eaf4f30c395c822245135907f8a2e266e6e0613b52420c915d6">
+                  <img id="cows_jpg" src='https://drscdn.500px.org/photo/1034808402/m%3D900/v2?sig=bd06a3ce4c8b5eaf4f30c395c822245135907f8a2e266e6e0613b52420c915d6' alt='cows_jpg by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('cows_jpg')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Cows</p>
+                  <p class="image-thumbnail-desc">Location: San Luis Obispo County, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="light_down_road_downtown" data-type="image" href="https://drscdn.500px.org/photo/1034808404/m%3D900/v2?sig=5b0592c6c4afad408f77a7fe1ee1cb76ae36f6b3241de6b86a36c470e8a0f031">
+                  <img id="light_down_road_downtown" src='https://drscdn.500px.org/photo/1034808404/m%3D900/v2?sig=5b0592c6c4afad408f77a7fe1ee1cb76ae36f6b3241de6b86a36c470e8a0f031' alt='light_down_road_downtown by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('light_down_road_downtown')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Glowing Downtown</p>
+                  <p class="image-thumbnail-desc">Location: Downtown Los Angeles, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="cow_valley" data-type="image" href="https://drscdn.500px.org/photo/1034808417/m%3D900/v2?sig=f785a3eb557a5091ca9583f5ee7983aae3ea4fff7405a05c5ea8faa83813df74">
+                  <img id="cow_valley" src='https://drscdn.500px.org/photo/1034808417/m%3D900/v2?sig=f785a3eb557a5091ca9583f5ee7983aae3ea4fff7405a05c5ea8faa83813df74' alt='cow_valley by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('cow_valley')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Cow Valley</p>
+                  <p class="image-thumbnail-desc">Location: San Luis Obispo County, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="square_rocks" data-type="image" href="https://drscdn.500px.org/photo/1034808446/m%3D900/v2?sig=8a38d4fb55483d0b5b96a365404c86658daf1ab9f74bed7959d88243ec397382">
+                  <img id="square_rocks" src='https://drscdn.500px.org/photo/1034808446/m%3D900/v2?sig=8a38d4fb55483d0b5b96a365404c86658daf1ab9f74bed7959d88243ec397382' alt='square_rocks by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('square_rocks')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Square Rocks</p>
+                  <p class="image-thumbnail-desc">Location: 17 Mile Drive, CA</p>
+                </div>
+              </div>
             </div>
             <div class="gallery-column">
-              <a data-fslightbox="gallery" data-caption="square_rocks" data-type="image" href="https://drscdn.500px.org/photo/1034808400/m%3D900/v2?sig=5f0fab5732bd27f389a901f3497f6228830a3fe5cda57d71d814ed3ed4950d5c">
-              <img id="steps_golden" src='https://drscdn.500px.org/photo/1034808400/m%3D900/v2?sig=5f0fab5732bd27f389a901f3497f6228830a3fe5cda57d71d814ed3ed4950d5c' alt='steps_golden by Jimmy Byrne on 500px.com' />
-            </a>
-              <a data-fslightbox="gallery" data-caption="square_rocks" data-type="image" href="https://drscdn.500px.org/photo/1034808405/m%3D900/v2?sig=e966bed9478e2895c531fb3e89e9a14a1ef6242049b62143b8e65c2674c6c62c">
-                <img id="bank_of_america" src='https://drscdn.500px.org/photo/1034808405/m%3D900/v2?sig=e966bed9478e2895c531fb3e89e9a14a1ef6242049b62143b8e65c2674c6c62c' alt='bank_of_america by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="square_rocks" data-type="image" href="https://drscdn.500px.org/photo/1034808418/m%3D900/v2?sig=655dea740018eab2be56baa78100c3acf4dc0d071447f0cbd501288aa8a11c05">
-                <img id="disney_silver" src='https://drscdn.500px.org/photo/1034808418/m%3D900/v2?sig=655dea740018eab2be56baa78100c3acf4dc0d071447f0cbd501288aa8a11c05' alt='disney_silver by Jimmy Byrne on 500px.com' />
-              </a>
-              <a data-fslightbox="gallery" data-caption="square_rocks" data-type="image" href="https://drscdn.500px.org/photo/1034808447/m%3D900/v2?sig=c8edb4dfc3c165beec75b927316d80f3bc61da367762f1adefdfd1b4e2287bd0">
-                <img id="water_sand_snow" src='https://drscdn.500px.org/photo/1034808447/m%3D900/v2?sig=c8edb4dfc3c165beec75b927316d80f3bc61da367762f1adefdfd1b4e2287bd0' alt='water_sand_snow by Jimmy Byrne on 500px.com' />
-              </a>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="steps_golden" data-type="image" href="https://drscdn.500px.org/photo/1034808400/m%3D900/v2?sig=5f0fab5732bd27f389a901f3497f6228830a3fe5cda57d71d814ed3ed4950d5c">
+                <img id="steps_golden" src='https://drscdn.500px.org/photo/1034808400/m%3D900/v2?sig=5f0fab5732bd27f389a901f3497f6228830a3fe5cda57d71d814ed3ed4950d5c' alt='steps_golden by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('steps_golden')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Steps Golden</p>
+                  <p class="image-thumbnail-desc">Location: UCLA, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="bank_of_america" data-type="image" href="https://drscdn.500px.org/photo/1034808405/m%3D900/v2?sig=e966bed9478e2895c531fb3e89e9a14a1ef6242049b62143b8e65c2674c6c62c">
+                  <img id="bank_of_america" src='https://drscdn.500px.org/photo/1034808405/m%3D900/v2?sig=e966bed9478e2895c531fb3e89e9a14a1ef6242049b62143b8e65c2674c6c62c' alt='bank_of_america by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('bank_of_america')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Bank of America</p>
+                  <p class="image-thumbnail-desc">Location: Downtown Los Angeles, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="disney_silver" data-type="image" href="https://drscdn.500px.org/photo/1034808418/m%3D900/v2?sig=655dea740018eab2be56baa78100c3acf4dc0d071447f0cbd501288aa8a11c05">
+                  <img id="disney_silver" src='https://drscdn.500px.org/photo/1034808418/m%3D900/v2?sig=655dea740018eab2be56baa78100c3acf4dc0d071447f0cbd501288aa8a11c05' alt='disney_silver by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('disney_silver')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Disney Silver</p>
+                  <p class="image-thumbnail-desc">Location: Downtown Los Angeles, CA</p>
+                </div>
+              </div>
+              <div class="image-container">
+                <a data-fslightbox="gallery" data-caption="water_sand_snow" data-type="image" href="https://drscdn.500px.org/photo/1034808447/m%3D900/v2?sig=c8edb4dfc3c165beec75b927316d80f3bc61da367762f1adefdfd1b4e2287bd0">
+                  <img id="water_sand_snow" src='https://drscdn.500px.org/photo/1034808447/m%3D900/v2?sig=c8edb4dfc3c165beec75b927316d80f3bc61da367762f1adefdfd1b4e2287bd0' alt='water_sand_snow by Jimmy Byrne on 500px.com' />
+                </a>
+                <div onclick="handleThumbDescClick('water_sand_snow')" class="centered-image-text row">
+                  <p class="image-thumbnail-desc">Water and Snow</p>
+                  <p class="image-thumbnail-desc">Location: Lake Arrowhead, CA</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

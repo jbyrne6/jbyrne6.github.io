@@ -104,3 +104,7 @@ body {
 .section-title {
   padding-top: 20px
 }
+
+.header-text {
+  text-align: center;
+}

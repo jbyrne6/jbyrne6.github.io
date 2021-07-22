@@ -46,9 +46,6 @@ body {
   cursor: pointer;
   transition: 0.3s linear;
 }
-/* .image-container:hover img {
-  filter: brightness(0.5);
-} */
 
 .image-container:hover img {
   filter: brightness(0.5)

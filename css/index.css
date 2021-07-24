@@ -1,26 +1,5 @@
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 600px) {
-    .content-col {
-      flex: 100%;
-      max-width: 100%;
-    }
-    #jimmy-bella-image {
-      flex: 100%;
-      max-width: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  } */
-
-  @media screen and (max-width: 800px) {
-    .content-col {
-        flex: 50%;
-        max-width: 50%;
-      }
-      #jimmy-bella-image {
-        flex: 100%;
-        max-width: 100%;
+@media only screen and (max-width: 800px) {
+      .home-image img {
         width: 100%;
-        object-fit: cover;
       }
   }

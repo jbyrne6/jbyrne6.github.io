@@ -61,4 +61,7 @@ body {
   .software-image img {
     width: 100%;
   }
+  .centered-image-text {
+    font-size: 20px;
+  }
 }

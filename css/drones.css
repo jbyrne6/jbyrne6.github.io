@@ -56,15 +56,6 @@ body {
   transition: 0.3s linear;
 }
 
-/* .gallery-column .centered-image-text {
-  transition: 0.3s linear;
-  cursor: pointer;
-}
-
-.gallery-column .centered-image-text:hover {
-  filter: brightness(0.5);
-} */
-
 @media screen and (max-width: 800px) {
   .gallery-column {
     flex: 50%;

@@ -1,0 +1,21 @@
+body {
+  padding-top: 60px;
+}
+
+.home-image-container {
+  max-height: 100%;
+}
+
+.home-image {
+
+}
+
+@media only screen and (max-width: 800px) {
+    .home-image img {
+      width: 100%;
+    }
+  }
+
+  .about-paragraph {
+    font-size: 20px;
+  }

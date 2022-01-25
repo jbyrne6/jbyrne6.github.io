@@ -53,10 +53,6 @@ body {
   cursor: pointer;
 }
 
-.project-link:hover {
-
-}
-
 @media only screen and (max-width: 800px) {
   .software-image img {
     width: 100%;
